@@ -12,6 +12,9 @@ proguardMapping.txtdddd
 # Java class files
 *.class
 
+# Java class files
+*.class
+
 # Generated files
 bin/
 gen/
@@ -31,6 +34,13 @@ proguard/
 
 # Log Files
 *.log
+
+# Java class files
+*.class
+fsdfsdfdgfeg wegfegsd shs thsui  sh g andrid  studi  jnag igation editor  teno
+.nagecitison 
+cahptures
+anhudfg ege 
 
 # Android Studio Navigation editor temp files
 .navigation/
