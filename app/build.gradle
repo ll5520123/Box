@@ -1,27 +1,146 @@
 apply plugin: 'com.android.application'
-apply plugin: 'kotlin-android'
+apply plugin:uildTypes {
+        debug {
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            minifyEnabled false
 
+            ndk {
+                abiFilters 'armeabi-v7a'
+            }
 def static buildTime() {
-    return new Date().format("yyyyMMdd_HHmm", TimeZone.getTimeZone("GMT+08:00"))
-}
+    return new Date(uildTypes {
+        debug {
+            proguardFiuildTypes {
+        debug {
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            minifyEnabled false
 
+            ndk {
+                abiFilters 'armeabi-v7a'
+            }les getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            minifyEnabled fuildTypes {
+        debug {
+            }alse
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            minifyEnabled false
+
+            ndk {
+                abiFilters 'armeabi-v7a'
+            }uildTypes {
+        debug {
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            minifyEnabled false
+
+            ndk {
+                abiFilters 'armeabi-v7a'
+            }alse
+
+            ndk {
+                abiFilters 'armeabi-v7a'
+            }).format(uildTypes {
+        debug {
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            minifyEnabled false
+
+            ndk {
+                abiFilters 'armeabi-v7a'
+            }uildTypes {
+        debug {
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            minifyEnabled false
+
+            ndk {
+                abiFilters 'armeabi-v7a'
+            }"yyyyMMdd_HHmm", TimeZone.getTimeZone("GMT+08:00"))
+}
+uildTypes {
+        debug {
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            minifyEnabled false
+
+            ndk {
+                abiFilters 'armeabi-v7a'
+            }
 android {
     compileSdk 33
+uildTypes {
+        debug {
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            minifyEnabled false
 
+            ndk {
+                abiFilters 'armeabi-v7a'
+            }
     defaultConfig {
         applicationId 'com.github.tvbox.osc.tk'
-        minSdkVersion 21
-        targetSdkVersion 29
+        minSdkVuildTypes {
+        debug {
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            minifyEnabled false
+
+            ndk {
+                abiFilters 'armeabi-v7a'
+            }ersion 21
+        targetSdkVersion 29uildTypes {
+        debug {
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            minifyEnabled false
+
+            ndk {
+                abiFilters 'armeabi-v7a'
+            }dds
         versionCode 1
         versionName "1.0.".concat(buildTime())
         multiDexEnabled true
         //设置room的Schema的位置
         javaCompileOptions {
             annotationProcessorOptions {
-                arguments = ["room.schemaLocation": "$projectDir/schemas".toString()]
+                arguments = ["rouildTypes {
+        debug {
+            proguardFiles getDefaultProuildTypes {
+        debug {
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            minifyEnabled false
+
+            ndk {
+                abiFilters 'armeabi-v7a'
+            }guardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            minifyEnabled false
+
+            ndk {
+                abiFilters 'armeabi-v7a'
+            }uildTypes {
+        debug {
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            minifyEnabled false
+
+            ndk {uildTypes {
+        debug {
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            minifyEnabled false
+
+            ndk {
+                abiFilters 'armeabi-v7a'
+            }uildTypes {
+        debug {
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            minifyEnabled false
+
+            ndk {
+                abiFilters 'armeabi-v7a'
+            }
+                abiFilters 'armeabi-v7a'
+            }om.schemaLocation": "$projectDir/schemas".toString()]
             }
         }
-    }
+    }uildTypes {
+        debug {
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            minifyEnabled false
+
+            ndk {
+                abiFilters 'armeabi-v7a'
+            }
 
     packagingOptions {
         exclude 'META-INF/DEPENDENCIES'
@@ -31,15 +150,36 @@ android {
         debug {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
             minifyEnabled false
+uildTypes {
+        debug {
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            minifyEnabled false
 
+            ndk {
+                abiFilters 'armeabi-v7a'
+            }
             ndk {
                 abiFilters 'armeabi-v7a'
             }
         }
         release {
+            proguarduildTypes {
+        debug {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
-            minifyEnabled true
+            minifyEnabled false
 
+            ndk {
+                abiFilters 'armeabi-v7a'
+            }Files getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            minifyEnabled true
+uildTypes {
+        debug {
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            minifyEnabled false
+
+            ndk {
+                abiFilters 'armeabi-v7a'
+            }
             ndk {
                 abiFilters 'armeabi-v7a'
             }
@@ -47,7 +187,28 @@ android {
     }
 
     compileOptions {
-        sourceCompatibility JavaVersion.VERSION_1_8
+        sourceCompatiuildTypes {
+        debug {
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            minifyEnabled false
+
+            ndk {
+                abiFilters 'armeabi-v7a'
+            }bility JavaVersiuildTypes {
+        debug {
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            minifyEnabled false
+
+            ndk {
+                abiFilters 'armeabi-v7a'
+            }on.VERSuildTypes {
+        debug {
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            minifyEnabled false
+
+            ndk {
+                abiFilters 'armeabi-v7a'
+            }ION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
 
